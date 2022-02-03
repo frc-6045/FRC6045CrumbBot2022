@@ -65,6 +65,7 @@ private final Joystick leftTankJoystick = new Joystick(0);
     // SmartDashboard Buttons
     SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
     SmartDashboard.putData("TankDrive", new TankDrive( m_driveTrain ));
+    SmartDashboard.putData("ArcadeDrive", new ArcadeDrive( m_driveTrain ));
     SmartDashboard.putData("Dump", new Dump( m_dumper ));
     SmartDashboard.putData("Climb", new Climb( m_lift ));
     SmartDashboard.putData("IntakeRise", new IntakeRise( m_intake ));
